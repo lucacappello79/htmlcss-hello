@@ -1,22 +1,39 @@
 .container{
+    position: relative;
+    border: 5px solid red;
     width: 600px;
     height: 600px;
     background-color: black;
+
 }
 
-div.green{
+.square{
+    background-image: url();
+}
+
+.square.green{
     background-color: green;
     width: 250px;
     height: 250px;
     display: inline-block;
 }
 
-div.blue{
+.square.blue{
     background-color: blue;
     width: 250px;
     height: 250px;
     display: inline-block;
 }
+
+.square.yellow{
+    background-color: yellow;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
 
 h1{
     color: orange;
