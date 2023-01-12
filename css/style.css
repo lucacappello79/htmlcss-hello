@@ -1,3 +1,23 @@
+.container{
+    width: 600px;
+    height: 600px;
+    background-color: black;
+}
+
+div.green{
+    background-color: green;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+
+div.blue{
+    background-color: blue;
+    width: 250px;
+    height: 250px;
+    display: inline-block;
+}
+
 h1{
     color: orange;
 }
